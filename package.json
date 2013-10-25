@@ -1,0 +1,22 @@
+{
+  "name": "monkimportcss",
+  "version": "1.0.0",
+  "description": "This plugin is to be used in lieu of the native 'importcss'. It does two thing. \nIt changes the way that importcss adds span tags as it adds classes from the 'Format' select \nlist. It removes this functionality and adds classes to the active element directly. \nSecondly, it adds copies of each class to explicity include common block elements in front \n(e.g. div.myclass). Users can then select the appropriate option to get the desired result \non block elements.",
+  "main": "none",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MonkDev/mcms.git"
+  },
+  "author": "MonkDev",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/MonkDev/mcms/issues"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2"
+  }
+}
